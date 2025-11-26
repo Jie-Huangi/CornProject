@@ -14,11 +14,11 @@ from utils.metrics import MetricsCalculator
 
 # Setup logging
 logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[
-            logging.FileHandler(config.LOG_DIR / 'training.log'),
-            logging.StreamHandler()
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(config.LOG_DIR / 'training.log'),
+        logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
@@ -44,7 +44,7 @@ class Trainer:
             verbose=True
         )
 
-        self.best_val_acc = 0
+        self.best_val_acc = 0.0
         self.metrics_calculator = MetricsCalculator(config.CLASS_NAMES)
 
     def train_epoch(self, train_loader, epoch):
@@ -54,9 +54,7 @@ class Trainer:
         correct = 0
         total = 0
 
-        # 使用 tqdm 创建进度条
         pbar = tqdm(train_loader, desc=f"Epoch {epoch} [Train]", leave=True)
-
         for batch_idx, (images, labels, _) in enumerate(pbar, 1):
             images = images.to(self.device)
             labels = labels.to(self.device)
@@ -79,11 +77,8 @@ class Trainer:
             avg_loss = total_loss / batch_idx
             acc_so_far = correct / total if total > 0 else 0.0
 
-            # 更新 tqdm 进度条显示
-            pbar.set_postfix({
-                'loss': f'{avg_loss:.4f}',
-                'acc': f'{acc_so_far:.4f}'
-            })
+            # Update tqdm postfix
+            pbar.set_postfix({'loss': f'{avg_loss:.4f}', 'acc': f'{acc_so_far:.4f}'})
 
         epoch_loss = total_loss / len(train_loader) if len(train_loader) > 0 else 0.0
         epoch_acc = correct / total if total > 0 else 0.0
@@ -98,9 +93,7 @@ class Trainer:
         all_preds = []
         all_labels = []
 
-        # 使用 tqdm 创建进度条
         pbar = tqdm(val_loader, desc=f"Epoch {epoch} [Val]", leave=True)
-
         with torch.no_grad():
             for batch_idx, (images, labels, _) in enumerate(pbar, 1):
                 images = images.to(self.device)
@@ -116,11 +109,7 @@ class Trainer:
                 all_labels.extend(labels.cpu().numpy())
 
                 val_acc_so_far = correct / total if total > 0 else 0.0
-
-                # 更新 tqdm 进度条显示
-                pbar.set_postfix({
-                    'acc': f'{val_acc_so_far:.4f}'
-                })
+                pbar.set_postfix({'acc': f'{val_acc_so_far:.4f}'})
 
         val_acc = correct / total if total > 0 else 0.0
         metrics = self.metrics_calculator.calculate_metrics(all_labels, all_preds)
@@ -151,9 +140,14 @@ class Trainer:
             history['val_acc'].append(val_acc)
             history['val_metrics'].append(metrics)
 
-            logger.info(f"Train Loss: {train_loss:. 4f}, Train Acc: {train_acc:.4f}")
-            logger.info(f"Val Acc: {val_acc:. 4f}, Precision: {metrics['precision']:.4f}, "
-                        f"Recall: {metrics['recall']:.4f}, F1: {metrics['f1']:.4f}")
+            # Fixed formatting: no spaces inside format specifiers
+            logger.info(
+                f"Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.4f}"
+            )
+            logger.info(
+                f"Val Acc: {val_acc:.4f}, Precision: {metrics['precision']:.4f}, "
+                f"Recall: {metrics['recall']:.4f}, F1: {metrics['f1']:.4f}"
+            )
 
             # Save checkpoint
             self._save_checkpoint(val_acc)
@@ -162,7 +156,7 @@ class Trainer:
             self.scheduler.step(val_acc)
 
         # Save training history
-        with open(config.LOG_DIR / 'training_history. json', 'w') as f:
+        with open(config.LOG_DIR / 'training_history.json', 'w') as f:
             # Convert numpy values to float for JSON serialization
             history_serializable = {
                 'train_loss': [float(x) for x in history['train_loss']],
@@ -180,7 +174,7 @@ class Trainer:
         checkpoint = {
             'model_state_dict': self.model.state_dict(),
             'optimizer_state_dict': self.optimizer.state_dict(),
-            'val_acc': val_acc,
+            'val_acc': float(val_acc),
         }
 
         # Save last checkpoint

@@ -131,7 +131,7 @@ def main():
     )
 
     # Example: Predict on a single image
-    test_image = config.DATA_CONFIG['test_path'] / 'intact' / 'sample.jpg'
+    test_image = config.DATA_CONFIG['test_path'] / 'broken' / 'b_original_0_75.jpg_3f83d1e9-2ef8-4152-816f-e43e104c86d0.jpg'
     if test_image.exists():
         class_name, confidence, all_probs = predictor.predict_image(test_image)
         logger.info(f"Prediction: {class_name} (Confidence: {confidence:.4f})")

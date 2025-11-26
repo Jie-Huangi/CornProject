@@ -26,3 +26,421 @@ Epoch 1/100
 2025-11-26 19:18:54,447 - INFO - Starting training for 100 epochs
 2025-11-26 19:18:54,447 - INFO - 
 Epoch 1/100
+2025-11-26 19:35:50,864 - INFO - ==================================================
+2025-11-26 19:35:50,864 - INFO - Corn Kernel Classification Training
+2025-11-26 19:35:50,864 - INFO - ==================================================
+2025-11-26 19:35:50,911 - INFO - Using device: cuda
+2025-11-26 19:35:50,915 - INFO - Model created: SqueezeNet with Ghost Module
+2025-11-26 19:35:50,916 - INFO - Train samples: 42, Val samples: 54
+2025-11-26 19:35:50,999 - INFO - Starting training for 100 epochs
+2025-11-26 19:35:50,999 - INFO - 
+Epoch 1/100
+2025-11-26 19:38:47,573 - INFO - ==================================================
+2025-11-26 19:38:47,573 - INFO - Corn Kernel Classification Training
+2025-11-26 19:38:47,573 - INFO - ==================================================
+2025-11-26 19:38:47,661 - INFO - Using device: cuda
+2025-11-26 19:38:47,665 - INFO - Model created: SqueezeNet with Ghost Module
+2025-11-26 19:38:47,666 - INFO - Train samples: 42, Val samples: 54
+2025-11-26 19:38:47,756 - INFO - Starting training for 100 epochs
+2025-11-26 19:38:47,756 - INFO - 
+Epoch 1/100
+2025-11-26 19:38:48,193 - INFO - Train Loss: 0.7018, Train Acc: 0.4524
+2025-11-26 19:38:48,193 - INFO - Val Acc: 0.6111, Precision: 0.7812, Recall: 0.6111, F1: 0.5418
+2025-11-26 19:38:48,210 - INFO - Best model saved with accuracy: 0.6111
+2025-11-26 19:38:48,210 - INFO - 
+Epoch 2/100
+2025-11-26 19:38:48,430 - INFO - Train Loss: 0.6915, Train Acc: 0.5000
+2025-11-26 19:38:48,430 - INFO - Val Acc: 0.5000, Precision: 0.5000, Recall: 0.5000, F1: 0.4450
+2025-11-26 19:38:48,443 - INFO - 
+Epoch 3/100
+2025-11-26 19:38:48,691 - INFO - Train Loss: 0.6889, Train Acc: 0.5714
+2025-11-26 19:38:48,691 - INFO - Val Acc: 0.5185, Precision: 0.5285, Recall: 0.5185, F1: 0.4722
+2025-11-26 19:38:48,700 - INFO - 
+Epoch 4/100
+2025-11-26 19:38:48,935 - INFO - Train Loss: 0.6893, Train Acc: 0.5952
+2025-11-26 19:38:48,935 - INFO - Val Acc: 0.4630, Precision: 0.4464, Recall: 0.4630, F1: 0.4181
+2025-11-26 19:38:48,945 - INFO - 
+Epoch 5/100
+2025-11-26 19:38:49,180 - INFO - Train Loss: 0.6746, Train Acc: 0.6190
+2025-11-26 19:38:49,181 - INFO - Val Acc: 0.4815, Precision: 0.4118, Recall: 0.4815, F1: 0.3538
+2025-11-26 19:38:49,190 - INFO - 
+Epoch 6/100
+2025-11-26 19:38:49,435 - INFO - Train Loss: 0.6771, Train Acc: 0.6190
+2025-11-26 19:38:49,435 - INFO - Val Acc: 0.5000, Precision: 0.2500, Recall: 0.5000, F1: 0.3333
+2025-11-26 19:38:49,444 - INFO - 
+Epoch 7/100
+2025-11-26 19:38:49,693 - INFO - Train Loss: 0.6567, Train Acc: 0.5952
+2025-11-26 19:38:49,693 - INFO - Val Acc: 0.5000, Precision: 0.2500, Recall: 0.5000, F1: 0.3333
+2025-11-26 19:38:49,707 - INFO - 
+Epoch 8/100
+2025-11-26 19:38:49,942 - INFO - Train Loss: 0.6394, Train Acc: 0.6429
+2025-11-26 19:38:49,942 - INFO - Val Acc: 0.5000, Precision: 0.2500, Recall: 0.5000, F1: 0.3333
+2025-11-26 19:38:49,951 - INFO - 
+Epoch 9/100
+2025-11-26 19:38:50,188 - INFO - Train Loss: 0.6612, Train Acc: 0.7143
+2025-11-26 19:38:50,188 - INFO - Val Acc: 0.5000, Precision: 0.2500, Recall: 0.5000, F1: 0.3333
+2025-11-26 19:38:50,197 - INFO - 
+Epoch 10/100
+2025-11-26 19:38:50,439 - INFO - Train Loss: 0.6042, Train Acc: 0.7619
+2025-11-26 19:38:50,439 - INFO - Val Acc: 0.5185, Precision: 0.5882, Recall: 0.5185, F1: 0.4000
+2025-11-26 19:38:50,448 - INFO - 
+Epoch 11/100
+2025-11-26 19:38:50,688 - INFO - Train Loss: 0.5639, Train Acc: 0.8571
+2025-11-26 19:38:50,688 - INFO - Val Acc: 0.4815, Precision: 0.4667, Recall: 0.4815, F1: 0.4167
+2025-11-26 19:38:50,697 - INFO - 
+Epoch 12/100
+2025-11-26 19:38:50,938 - INFO - Train Loss: 0.5657, Train Acc: 0.7619
+2025-11-26 19:38:50,938 - INFO - Val Acc: 0.4630, Precision: 0.4266, Recall: 0.4630, F1: 0.3871
+2025-11-26 19:38:50,947 - INFO - 
+Epoch 13/100
+2025-11-26 19:38:51,182 - INFO - Train Loss: 0.6126, Train Acc: 0.6667
+2025-11-26 19:38:51,182 - INFO - Val Acc: 0.4630, Precision: 0.4386, Recall: 0.4630, F1: 0.4039
+2025-11-26 19:38:51,192 - INFO - 
+Epoch 14/100
+2025-11-26 19:38:51,425 - INFO - Train Loss: 0.4785, Train Acc: 0.7381
+2025-11-26 19:38:51,425 - INFO - Val Acc: 0.4815, Precision: 0.4590, Recall: 0.4815, F1: 0.3990
+2025-11-26 19:38:51,434 - INFO - 
+Epoch 15/100
+2025-11-26 19:38:51,681 - INFO - Train Loss: 0.5249, Train Acc: 0.7857
+2025-11-26 19:38:51,681 - INFO - Val Acc: 0.4815, Precision: 0.4667, Recall: 0.4815, F1: 0.4167
+2025-11-26 19:38:51,690 - INFO - 
+Epoch 16/100
+2025-11-26 19:38:51,929 - INFO - Train Loss: 0.5726, Train Acc: 0.7857
+2025-11-26 19:38:51,929 - INFO - Val Acc: 0.5185, Precision: 0.5253, Recall: 0.5185, F1: 0.4838
+2025-11-26 19:38:51,938 - INFO - 
+Epoch 17/100
+2025-11-26 19:38:52,175 - INFO - Train Loss: 0.3951, Train Acc: 0.9048
+2025-11-26 19:38:52,176 - INFO - Val Acc: 0.4444, Precision: 0.4356, Recall: 0.4444, F1: 0.4247
+2025-11-26 19:38:52,185 - INFO - 
+Epoch 18/100
+2025-11-26 19:38:52,423 - INFO - Train Loss: 0.4563, Train Acc: 0.8095
+2025-11-26 19:38:52,423 - INFO - Val Acc: 0.4444, Precision: 0.4391, Recall: 0.4444, F1: 0.4320
+2025-11-26 19:38:52,432 - INFO - 
+Epoch 19/100
+2025-11-26 19:38:52,676 - INFO - Train Loss: 0.3877, Train Acc: 0.8095
+2025-11-26 19:38:52,676 - INFO - Val Acc: 0.3704, Precision: 0.3675, Recall: 0.3704, F1: 0.3669
+2025-11-26 19:38:52,685 - INFO - 
+Epoch 20/100
+2025-11-26 19:38:52,925 - INFO - Train Loss: 0.5338, Train Acc: 0.7381
+2025-11-26 19:38:52,925 - INFO - Val Acc: 0.4259, Precision: 0.4258, Recall: 0.4259, F1: 0.4257
+2025-11-26 19:38:52,933 - INFO - 
+Epoch 21/100
+2025-11-26 19:38:53,170 - INFO - Train Loss: 0.4107, Train Acc: 0.8333
+2025-11-26 19:38:53,170 - INFO - Val Acc: 0.4630, Precision: 0.4556, Recall: 0.4630, F1: 0.4397
+2025-11-26 19:38:53,179 - INFO - 
+Epoch 22/100
+2025-11-26 19:38:53,433 - INFO - Train Loss: 0.4862, Train Acc: 0.8571
+2025-11-26 19:38:53,433 - INFO - Val Acc: 0.4815, Precision: 0.4590, Recall: 0.4815, F1: 0.3990
+2025-11-26 19:38:53,443 - INFO - 
+Epoch 23/100
+2025-11-26 19:38:53,678 - INFO - Train Loss: 0.3346, Train Acc: 0.8333
+2025-11-26 19:38:53,678 - INFO - Val Acc: 0.5000, Precision: 0.5000, Recall: 0.5000, F1: 0.4109
+2025-11-26 19:38:53,687 - INFO - 
+Epoch 24/100
+2025-11-26 19:38:53,932 - INFO - Train Loss: 0.4596, Train Acc: 0.8571
+2025-11-26 19:38:53,932 - INFO - Val Acc: 0.4815, Precision: 0.4449, Recall: 0.4815, F1: 0.3783
+2025-11-26 19:38:53,941 - INFO - 
+Epoch 25/100
+2025-11-26 19:38:54,171 - INFO - Train Loss: 0.3403, Train Acc: 0.8571
+2025-11-26 19:38:54,171 - INFO - Val Acc: 0.4630, Precision: 0.3650, Recall: 0.4630, F1: 0.3439
+2025-11-26 19:38:54,180 - INFO - 
+Epoch 26/100
+2025-11-26 19:38:54,419 - INFO - Train Loss: 0.3872, Train Acc: 0.8333
+2025-11-26 19:38:54,419 - INFO - Val Acc: 0.4630, Precision: 0.3650, Recall: 0.4630, F1: 0.3439
+2025-11-26 19:38:54,428 - INFO - 
+Epoch 27/100
+2025-11-26 19:38:54,676 - INFO - Train Loss: 0.2802, Train Acc: 0.9048
+2025-11-26 19:38:54,676 - INFO - Val Acc: 0.4630, Precision: 0.3650, Recall: 0.4630, F1: 0.3439
+2025-11-26 19:38:54,685 - INFO - 
+Epoch 28/100
+2025-11-26 19:38:54,921 - INFO - Train Loss: 0.3172, Train Acc: 0.9286
+2025-11-26 19:38:54,921 - INFO - Val Acc: 0.4630, Precision: 0.3650, Recall: 0.4630, F1: 0.3439
+2025-11-26 19:38:54,930 - INFO - 
+Epoch 29/100
+2025-11-26 19:38:55,179 - INFO - Train Loss: 0.2199, Train Acc: 0.9762
+2025-11-26 19:38:55,179 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:55,193 - INFO - 
+Epoch 30/100
+2025-11-26 19:38:55,421 - INFO - Train Loss: 0.2940, Train Acc: 0.8571
+2025-11-26 19:38:55,421 - INFO - Val Acc: 0.4259, Precision: 0.3125, Recall: 0.4259, F1: 0.3236
+2025-11-26 19:38:55,430 - INFO - 
+Epoch 31/100
+2025-11-26 19:38:55,670 - INFO - Train Loss: 0.3934, Train Acc: 0.8810
+2025-11-26 19:38:55,670 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:55,679 - INFO - 
+Epoch 32/100
+2025-11-26 19:38:55,920 - INFO - Train Loss: 0.2360, Train Acc: 0.8810
+2025-11-26 19:38:55,921 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:55,930 - INFO - 
+Epoch 33/100
+2025-11-26 19:38:56,176 - INFO - Train Loss: 0.2866, Train Acc: 0.8810
+2025-11-26 19:38:56,176 - INFO - Val Acc: 0.4444, Precision: 0.2353, Recall: 0.4444, F1: 0.3077
+2025-11-26 19:38:56,185 - INFO - 
+Epoch 34/100
+2025-11-26 19:38:56,424 - INFO - Train Loss: 0.2357, Train Acc: 0.8810
+2025-11-26 19:38:56,424 - INFO - Val Acc: 0.4444, Precision: 0.2353, Recall: 0.4444, F1: 0.3077
+2025-11-26 19:38:56,434 - INFO - 
+Epoch 35/100
+2025-11-26 19:38:56,674 - INFO - Train Loss: 0.3525, Train Acc: 0.8333
+2025-11-26 19:38:56,674 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:56,684 - INFO - 
+Epoch 36/100
+2025-11-26 19:38:56,934 - INFO - Train Loss: 0.3163, Train Acc: 0.9048
+2025-11-26 19:38:56,934 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:56,947 - INFO - 
+Epoch 37/100
+2025-11-26 19:38:57,181 - INFO - Train Loss: 0.2693, Train Acc: 0.9286
+2025-11-26 19:38:57,181 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:57,190 - INFO - 
+Epoch 38/100
+2025-11-26 19:38:57,429 - INFO - Train Loss: 0.2965, Train Acc: 0.8810
+2025-11-26 19:38:57,430 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:57,439 - INFO - 
+Epoch 39/100
+2025-11-26 19:38:57,676 - INFO - Train Loss: 0.2718, Train Acc: 0.9048
+2025-11-26 19:38:57,676 - INFO - Val Acc: 0.4259, Precision: 0.3125, Recall: 0.4259, F1: 0.3236
+2025-11-26 19:38:57,688 - INFO - 
+Epoch 40/100
+2025-11-26 19:38:57,931 - INFO - Train Loss: 0.2490, Train Acc: 0.8810
+2025-11-26 19:38:57,931 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:57,940 - INFO - 
+Epoch 41/100
+2025-11-26 19:38:58,177 - INFO - Train Loss: 0.2539, Train Acc: 0.9286
+2025-11-26 19:38:58,177 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:58,186 - INFO - 
+Epoch 42/100
+2025-11-26 19:38:58,431 - INFO - Train Loss: 0.2534, Train Acc: 0.9286
+2025-11-26 19:38:58,431 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:58,443 - INFO - 
+Epoch 43/100
+2025-11-26 19:38:58,677 - INFO - Train Loss: 0.2153, Train Acc: 0.9048
+2025-11-26 19:38:58,677 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:58,686 - INFO - 
+Epoch 44/100
+2025-11-26 19:38:58,919 - INFO - Train Loss: 0.2602, Train Acc: 0.9286
+2025-11-26 19:38:58,919 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:58,928 - INFO - 
+Epoch 45/100
+2025-11-26 19:38:59,172 - INFO - Train Loss: 0.1861, Train Acc: 0.9762
+2025-11-26 19:38:59,172 - INFO - Val Acc: 0.4630, Precision: 0.3650, Recall: 0.4630, F1: 0.3439
+2025-11-26 19:38:59,181 - INFO - 
+Epoch 46/100
+2025-11-26 19:38:59,417 - INFO - Train Loss: 0.2806, Train Acc: 0.9048
+2025-11-26 19:38:59,417 - INFO - Val Acc: 0.4630, Precision: 0.3650, Recall: 0.4630, F1: 0.3439
+2025-11-26 19:38:59,426 - INFO - 
+Epoch 47/100
+2025-11-26 19:38:59,673 - INFO - Train Loss: 0.3352, Train Acc: 0.8810
+2025-11-26 19:38:59,673 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:59,682 - INFO - 
+Epoch 48/100
+2025-11-26 19:38:59,919 - INFO - Train Loss: 0.3272, Train Acc: 0.8810
+2025-11-26 19:38:59,919 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:38:59,928 - INFO - 
+Epoch 49/100
+2025-11-26 19:39:00,178 - INFO - Train Loss: 0.3147, Train Acc: 0.9286
+2025-11-26 19:39:00,178 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:39:00,187 - INFO - 
+Epoch 50/100
+2025-11-26 19:39:00,439 - INFO - Train Loss: 0.2346, Train Acc: 0.9286
+2025-11-26 19:39:00,439 - INFO - Val Acc: 0.4444, Precision: 0.3347, Recall: 0.4444, F1: 0.3339
+2025-11-26 19:39:00,448 - INFO - 
+Epoch 51/100
+2025-11-26 19:39:00,706 - INFO - Train Loss: 0.1656, Train Acc: 0.9048
+2025-11-26 19:39:00,706 - INFO - Val Acc: 0.4259, Precision: 0.3125, Recall: 0.4259, F1: 0.3236
+2025-11-26 19:39:00,715 - INFO - 
+Epoch 52/100
+2025-11-26 19:39:00,955 - INFO - Train Loss: 0.4066, Train Acc: 0.8333
+2025-11-26 19:39:00,955 - INFO - Val Acc: 0.4259, Precision: 0.3125, Recall: 0.4259, F1: 0.3236
+2025-11-26 19:39:00,966 - INFO - 
+Epoch 53/100
+2025-11-26 19:39:01,198 - INFO - Train Loss: 0.3259, Train Acc: 0.8095
+2025-11-26 19:39:01,198 - INFO - Val Acc: 0.4259, Precision: 0.3125, Recall: 0.4259, F1: 0.3236
+2025-11-26 19:39:01,208 - INFO - 
+Epoch 54/100
+2025-11-26 19:39:01,455 - INFO - Train Loss: 0.2149, Train Acc: 0.9286
+2025-11-26 19:39:01,455 - INFO - Val Acc: 0.4259, Precision: 0.3125, Recall: 0.4259, F1: 0.3236
+2025-11-26 19:39:01,465 - INFO - 
+Epoch 55/100
+2025-11-26 19:39:01,695 - INFO - Train Loss: 0.3657, Train Acc: 0.9048
+2025-11-26 19:39:01,695 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:01,704 - INFO - 
+Epoch 56/100
+2025-11-26 19:39:01,947 - INFO - Train Loss: 0.3381, Train Acc: 0.8810
+2025-11-26 19:39:01,947 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:01,956 - INFO - 
+Epoch 57/100
+2025-11-26 19:39:02,191 - INFO - Train Loss: 0.2442, Train Acc: 0.9048
+2025-11-26 19:39:02,191 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:02,200 - INFO - 
+Epoch 58/100
+2025-11-26 19:39:02,431 - INFO - Train Loss: 0.2010, Train Acc: 0.9524
+2025-11-26 19:39:02,431 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:02,440 - INFO - 
+Epoch 59/100
+2025-11-26 19:39:02,681 - INFO - Train Loss: 0.2913, Train Acc: 0.9048
+2025-11-26 19:39:02,681 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:02,690 - INFO - 
+Epoch 60/100
+2025-11-26 19:39:02,935 - INFO - Train Loss: 0.3058, Train Acc: 0.8571
+2025-11-26 19:39:02,935 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:02,945 - INFO - 
+Epoch 61/100
+2025-11-26 19:39:03,177 - INFO - Train Loss: 0.2848, Train Acc: 0.9048
+2025-11-26 19:39:03,177 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:03,186 - INFO - 
+Epoch 62/100
+2025-11-26 19:39:03,434 - INFO - Train Loss: 0.2732, Train Acc: 0.8810
+2025-11-26 19:39:03,434 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:03,443 - INFO - 
+Epoch 63/100
+2025-11-26 19:39:03,676 - INFO - Train Loss: 0.1878, Train Acc: 0.9286
+2025-11-26 19:39:03,676 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:03,687 - INFO - 
+Epoch 64/100
+2025-11-26 19:39:03,927 - INFO - Train Loss: 0.2557, Train Acc: 0.9286
+2025-11-26 19:39:03,927 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:03,936 - INFO - 
+Epoch 65/100
+2025-11-26 19:39:04,175 - INFO - Train Loss: 0.1536, Train Acc: 0.9048
+2025-11-26 19:39:04,175 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:04,184 - INFO - 
+Epoch 66/100
+2025-11-26 19:39:04,424 - INFO - Train Loss: 0.2556, Train Acc: 0.9048
+2025-11-26 19:39:04,424 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:04,438 - INFO - 
+Epoch 67/100
+2025-11-26 19:39:04,667 - INFO - Train Loss: 0.2362, Train Acc: 0.9048
+2025-11-26 19:39:04,667 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:04,676 - INFO - 
+Epoch 68/100
+2025-11-26 19:39:04,917 - INFO - Train Loss: 0.1747, Train Acc: 0.9524
+2025-11-26 19:39:04,917 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:04,926 - INFO - 
+Epoch 69/100
+2025-11-26 19:39:05,169 - INFO - Train Loss: 0.2437, Train Acc: 0.9048
+2025-11-26 19:39:05,169 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:05,178 - INFO - 
+Epoch 70/100
+2025-11-26 19:39:05,419 - INFO - Train Loss: 0.1953, Train Acc: 0.9286
+2025-11-26 19:39:05,419 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:05,428 - INFO - 
+Epoch 71/100
+2025-11-26 19:39:05,658 - INFO - Train Loss: 0.2602, Train Acc: 0.9048
+2025-11-26 19:39:05,658 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:05,667 - INFO - 
+Epoch 72/100
+2025-11-26 19:39:05,913 - INFO - Train Loss: 0.1872, Train Acc: 0.9524
+2025-11-26 19:39:05,913 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:05,922 - INFO - 
+Epoch 73/100
+2025-11-26 19:39:06,158 - INFO - Train Loss: 0.2783, Train Acc: 0.9286
+2025-11-26 19:39:06,158 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:06,167 - INFO - 
+Epoch 74/100
+2025-11-26 19:39:06,396 - INFO - Train Loss: 0.3365, Train Acc: 0.9048
+2025-11-26 19:39:06,397 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:06,406 - INFO - 
+Epoch 75/100
+2025-11-26 19:39:06,649 - INFO - Train Loss: 0.2045, Train Acc: 0.9286
+2025-11-26 19:39:06,649 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:06,660 - INFO - 
+Epoch 76/100
+2025-11-26 19:39:06,895 - INFO - Train Loss: 0.1817, Train Acc: 0.9524
+2025-11-26 19:39:06,895 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:06,904 - INFO - 
+Epoch 77/100
+2025-11-26 19:39:07,137 - INFO - Train Loss: 0.2003, Train Acc: 0.8810
+2025-11-26 19:39:07,137 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:07,146 - INFO - 
+Epoch 78/100
+2025-11-26 19:39:07,371 - INFO - Train Loss: 0.1793, Train Acc: 0.9524
+2025-11-26 19:39:07,371 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:07,380 - INFO - 
+Epoch 79/100
+2025-11-26 19:39:07,605 - INFO - Train Loss: 0.2214, Train Acc: 0.9286
+2025-11-26 19:39:07,606 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:07,614 - INFO - 
+Epoch 80/100
+2025-11-26 19:39:07,843 - INFO - Train Loss: 0.3135, Train Acc: 0.9048
+2025-11-26 19:39:07,843 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:07,852 - INFO - 
+Epoch 81/100
+2025-11-26 19:39:08,100 - INFO - Train Loss: 0.2172, Train Acc: 0.9762
+2025-11-26 19:39:08,100 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:08,109 - INFO - 
+Epoch 82/100
+2025-11-26 19:39:08,336 - INFO - Train Loss: 0.1953, Train Acc: 0.9524
+2025-11-26 19:39:08,336 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:08,345 - INFO - 
+Epoch 83/100
+2025-11-26 19:39:08,605 - INFO - Train Loss: 0.1945, Train Acc: 0.9286
+2025-11-26 19:39:08,605 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:08,615 - INFO - 
+Epoch 84/100
+2025-11-26 19:39:08,840 - INFO - Train Loss: 0.2983, Train Acc: 0.9048
+2025-11-26 19:39:08,840 - INFO - Val Acc: 0.4259, Precision: 0.3773, Recall: 0.4259, F1: 0.3628
+2025-11-26 19:39:08,849 - INFO - 
+Epoch 85/100
+2025-11-26 19:39:09,093 - INFO - Train Loss: 0.2147, Train Acc: 0.9286
+2025-11-26 19:39:09,093 - INFO - Val Acc: 0.4259, Precision: 0.3773, Recall: 0.4259, F1: 0.3628
+2025-11-26 19:39:09,102 - INFO - 
+Epoch 86/100
+2025-11-26 19:39:09,341 - INFO - Train Loss: 0.3404, Train Acc: 0.8810
+2025-11-26 19:39:09,341 - INFO - Val Acc: 0.4259, Precision: 0.3773, Recall: 0.4259, F1: 0.3628
+2025-11-26 19:39:09,350 - INFO - 
+Epoch 87/100
+2025-11-26 19:39:09,618 - INFO - Train Loss: 0.2332, Train Acc: 0.9286
+2025-11-26 19:39:09,618 - INFO - Val Acc: 0.4259, Precision: 0.3773, Recall: 0.4259, F1: 0.3628
+2025-11-26 19:39:09,627 - INFO - 
+Epoch 88/100
+2025-11-26 19:39:09,852 - INFO - Train Loss: 0.4282, Train Acc: 0.8810
+2025-11-26 19:39:09,852 - INFO - Val Acc: 0.4074, Precision: 0.3573, Recall: 0.4074, F1: 0.3504
+2025-11-26 19:39:09,861 - INFO - 
+Epoch 89/100
+2025-11-26 19:39:10,104 - INFO - Train Loss: 0.2035, Train Acc: 0.9048
+2025-11-26 19:39:10,104 - INFO - Val Acc: 0.4259, Precision: 0.3773, Recall: 0.4259, F1: 0.3628
+2025-11-26 19:39:10,113 - INFO - 
+Epoch 90/100
+2025-11-26 19:39:10,369 - INFO - Train Loss: 0.1939, Train Acc: 0.9286
+2025-11-26 19:39:10,369 - INFO - Val Acc: 0.4259, Precision: 0.3773, Recall: 0.4259, F1: 0.3628
+2025-11-26 19:39:10,379 - INFO - 
+Epoch 91/100
+2025-11-26 19:39:10,631 - INFO - Train Loss: 0.1862, Train Acc: 0.9524
+2025-11-26 19:39:10,631 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:10,640 - INFO - 
+Epoch 92/100
+2025-11-26 19:39:10,870 - INFO - Train Loss: 0.1645, Train Acc: 1.0000
+2025-11-26 19:39:10,870 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:10,879 - INFO - 
+Epoch 93/100
+2025-11-26 19:39:11,108 - INFO - Train Loss: 0.1579, Train Acc: 0.9286
+2025-11-26 19:39:11,108 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:11,117 - INFO - 
+Epoch 94/100
+2025-11-26 19:39:11,359 - INFO - Train Loss: 0.2719, Train Acc: 0.9048
+2025-11-26 19:39:11,359 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:11,368 - INFO - 
+Epoch 95/100
+2025-11-26 19:39:11,606 - INFO - Train Loss: 0.2375, Train Acc: 0.9286
+2025-11-26 19:39:11,606 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:11,615 - INFO - 
+Epoch 96/100
+2025-11-26 19:39:11,867 - INFO - Train Loss: 0.2964, Train Acc: 0.9048
+2025-11-26 19:39:11,867 - INFO - Val Acc: 0.3889, Precision: 0.2799, Recall: 0.3889, F1: 0.3025
+2025-11-26 19:39:11,876 - INFO - 
+Epoch 97/100
+2025-11-26 19:39:12,122 - INFO - Train Loss: 0.1328, Train Acc: 0.9524
+2025-11-26 19:39:12,122 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:12,131 - INFO - 
+Epoch 98/100
+2025-11-26 19:39:12,384 - INFO - Train Loss: 0.1936, Train Acc: 0.9286
+2025-11-26 19:39:12,384 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:12,394 - INFO - 
+Epoch 99/100
+2025-11-26 19:39:12,646 - INFO - Train Loss: 0.2359, Train Acc: 0.8810
+2025-11-26 19:39:12,646 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:12,658 - INFO - 
+Epoch 100/100
+2025-11-26 19:39:12,884 - INFO - Train Loss: 0.2232, Train Acc: 0.9286
+2025-11-26 19:39:12,884 - INFO - Val Acc: 0.4074, Precision: 0.2948, Recall: 0.4074, F1: 0.3132
+2025-11-26 19:39:12,894 - INFO - Training completed!
