@@ -1,0 +1,28 @@
+2025-11-26 19:01:29,419 - INFO - ==================================================
+2025-11-26 19:01:29,420 - INFO - Corn Kernel Classification Training
+2025-11-26 19:01:29,420 - INFO - ==================================================
+2025-11-26 19:01:29,447 - INFO - Using device: cuda
+2025-11-26 19:01:29,485 - INFO - Model created: SqueezeNet with Ghost Module
+2025-11-26 19:05:31,273 - INFO - ==================================================
+2025-11-26 19:05:31,273 - INFO - Corn Kernel Classification Training
+2025-11-26 19:05:31,273 - INFO - ==================================================
+2025-11-26 19:05:31,292 - INFO - Using device: cuda
+2025-11-26 19:05:31,300 - INFO - Model created: SqueezeNet with Ghost Module
+2025-11-26 19:18:01,534 - INFO - ==================================================
+2025-11-26 19:18:01,534 - INFO - Corn Kernel Classification Training
+2025-11-26 19:18:01,534 - INFO - ==================================================
+2025-11-26 19:18:01,556 - INFO - Using device: cuda
+2025-11-26 19:18:01,566 - INFO - Model created: SqueezeNet with Ghost Module
+2025-11-26 19:18:01,570 - INFO - Train samples: 42, Val samples: 54
+2025-11-26 19:18:01,693 - INFO - Starting training for 100 epochs
+2025-11-26 19:18:01,693 - INFO - 
+Epoch 1/100
+2025-11-26 19:18:54,283 - INFO - ==================================================
+2025-11-26 19:18:54,283 - INFO - Corn Kernel Classification Training
+2025-11-26 19:18:54,283 - INFO - ==================================================
+2025-11-26 19:18:54,307 - INFO - Using device: cuda
+2025-11-26 19:18:54,313 - INFO - Model created: SqueezeNet with Ghost Module
+2025-11-26 19:18:54,315 - INFO - Train samples: 42, Val samples: 54
+2025-11-26 19:18:54,447 - INFO - Starting training for 100 epochs
+2025-11-26 19:18:54,447 - INFO - 
+Epoch 1/100
