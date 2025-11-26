@@ -76,7 +76,7 @@ class Evaluator:
         logger.info(f"Confusion matrix saved to {cm_path}")
 
         # Save metrics plot
-        metrics_path = config.LOG_DIR / 'metrics. png'
+        metrics_path = config.LOG_DIR / 'metrics.png'
         self.metrics_calculator.plot_metrics(metrics, save_path=metrics_path)
         logger.info(f"Metrics plot saved to {metrics_path}")
 
